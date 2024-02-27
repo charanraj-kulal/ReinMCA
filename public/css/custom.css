@@ -1,0 +1,159 @@
+/*Temp CSS Start*/
+.pc-submenu .pc-item:nth-child(1) {
+    display: none;
+}
+.pc-submenu .pc-item:nth-child(2) {
+    display: none;
+}
+.pc-submenu .pc-item:nth-child(5) {
+    display: none;
+}
+.file-notice {
+    color: #EA4D4D;
+    position: relative;
+    top: -20px;
+    float: right;
+}
+
+/*Temp CSS Close */
+
+.pc-sidebar {
+    width: 225px !important;
+}
+.pc-header {
+    left: 225px !important;
+}
+.pc-container {
+    margin-left: 220px !important;
+}
+.alert .close {
+    float: right;
+}
+.manage-expense tr td:nth-child(7n) {
+    text-align: end;
+}
+.manage-expense tr td:nth-child(8n) {
+    text-align: end;
+}
+.user-count .feed-card:hover .border-feed {
+    background: hsl(185deg 100% 56% / 30%) !important;
+}
+
+.user-count .feed-card:hover .border-feed i {
+    color: #3ecce1 !important;
+}
+.manage-expense thead tr th:nth-child(7) {
+    text-align: right;
+}
+.manage-expense thead tr th:nth-child(8) {
+    text-align: right;
+}
+/* PAGINATIN */
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  border-color: #DDDDDD;
+  cursor: default;
+  z-index: 2;
+}
+.pagination > li > a,
+.pagination > li > span {
+  background-color: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  color: inherit;
+  float: left;
+  line-height: 1.42857;
+  margin-left: -1px;
+  padding: 4px 10px;
+  position: relative;
+  text-decoration: none;
+}
+.page-item.active .page-link {
+  background-color: #1ab394;
+  border-color: #1ab394;
+}
+.page-link:focus {
+  box-shadow: none;
+}
+.page-link:hover {
+  color: #676a6c;
+}
+.pagination .footable-page.active a {
+  background-color: #1ab394;
+  border-color: #1ab394;
+  color: white;
+}
+.pagination>li>a, .pagination>li>span{
+    font-size: 12px;
+    color: #000;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background: #1c232f;
+    border-color: #1c232f;
+    color: white;
+}
+/*Search*/
+.search-panel .form-group{
+    margin-bottom: 0px;
+}
+/*Swal*/
+.sweet-alert h2 {
+    font-size: 18px !important;
+}
+/*Table CSS*/
+.item-table thead tr th:first-child {
+    width: 65%;
+}
+/*Calender*/
+.datepicker {
+    z-index: 9999 !important;
+}
+/*Form Group CSS Start*/
+.form-group {
+    align-items: center;
+}
+
+#file_error {
+    color: red;
+}
+/*Select CSS Start*/
+.select2-selection {
+    border-radius: 4 !important;
+    height: 42px !important;
+    border: 2px solid #ced4da !important;
+}
+
+.select2-selection span {
+    padding-top: 7px;
+}
+.select2-selection__arrow {
+    margin-top: 7px !important;
+}
+.select2-selection:focus {
+    color: #293240;
+    background-color: #ffffff;
+    border-color: #1c232f !important;
+    outline: 0;
+}
+/*Select CSS End/
+/* Desable arrow in Inout Type -> Number */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.expense-detail td{
+    white-space: normal !important; 
+    width : 25% !important;
+}
