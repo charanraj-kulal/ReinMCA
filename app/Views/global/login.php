@@ -13,12 +13,12 @@
 	<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
 
 	<!-- font css -->
-	<link rel="stylesheet" href="assets/fonts/feather.css">
-	<link rel="stylesheet" href="assets/fonts/fontawesome.css">
-	<link rel="stylesheet" href="assets/fonts/material.css">
+	<link rel="stylesheet" href="<?= base_url('assets/fonts/feather.css') ?>">
+	<link rel="stylesheet" href="<?= base_url('assets/fonts/fontawesome.css') ?>">
+	<link rel="stylesheet" href="<?= base_url('assets/fonts/material.css') ?>">
     
     <!-- custom css -->
-	<link rel="stylesheet" href="<?php echo site_url('assets/css/custom.css');?>">
+	<link rel="stylesheet" href="<?= base_url('assets/css/custom.css') ?>">
 
 	<!-- vendor css -->
 	<link rel="stylesheet" href="assets/css/style.css" id="main-style-link">
@@ -30,8 +30,7 @@
 <div class="auth-wrapper">
 	<div class="auth-content">
 		<div class="card">
-        <?php notice_display(); ?>
-        <?php echo validation_errors('<div class="alert alert-danger"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> ', '</div>'); ?>
+        
 			<div class="row align-items-center text-center">
 				<div class="col-md-12">
 					<div class="card-body">
